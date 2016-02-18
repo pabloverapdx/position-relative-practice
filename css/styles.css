@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.two {
+  position: relative;
+  left: 200px; bottom: 20px;
+}
